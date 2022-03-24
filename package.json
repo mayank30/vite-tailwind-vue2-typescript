@@ -1,12 +1,25 @@
 {
   "name": "admin-ts",
+  "description": "Boilerplate Repository with FAST load time using vite and untility css using tailwind css support.",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "serve": "vite",
+    "build": "vite build",
+    "build:prod": "vite build --mode prod",
+    "lint": "vite lint"
   },
+  "author": "Mayank Jhawar <mayankjhawar18@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "template",
+    "javascript",
+    "typescript",
+    "vue 2.x",
+    "vite",
+    "tailwind",
+    "css"
+  ],
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
@@ -18,18 +31,18 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
-    "@vue/cli-plugin-babel": "~4.5.15",
-    "@vue/cli-plugin-eslint": "~4.5.15",
-    "@vue/cli-plugin-router": "~4.5.15",
-    "@vue/cli-plugin-typescript": "~4.5.15",
-    "@vue/cli-plugin-vuex": "~4.5.15",
-    "@vue/cli-service": "~4.5.15",
     "@vue/eslint-config-typescript": "^7.0.0",
+    "autoprefixer": "^10.4.4",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "postcss": "^8.4.12",
+    "rollup-plugin-visualizer": "^5.6.0",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
+    "tailwindcss": "^3.0.23",
     "typescript": "~4.1.5",
+    "vite": "^2.8.6",
+    "vite-plugin-vue2": "^1.9.3",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
